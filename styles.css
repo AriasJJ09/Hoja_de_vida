@@ -1,3 +1,4 @@
+
 body{
 
     background-color: aliceblue;
@@ -23,18 +24,24 @@ header li{
     padding: 0%;
     
 }
+header h1{
+    color: #fff;
+}
 
 .foto_circulo{
     border: 3px solid #ffffff; 
     border-radius: 100%;
-}
-
-header img {
     display: block;
     width: 250px;
     height: 250px;
     margin: auto;
+}
 
+.contacto img {
+    display: block;
+    width: 45px;
+    height: 35px;
+    margin: auto;
 }
 
 h1 {
@@ -76,3 +83,12 @@ div{
     flex-wrap: wrap;
     
 }
+
+.con_estudios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
